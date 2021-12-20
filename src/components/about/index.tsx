@@ -19,20 +19,22 @@ const About = () => {
         occaecat cupidatat non proident
       </Styled.AboutText>
 
+      <Styled.AboutTitle>Contacts</Styled.AboutTitle>
+
       <Styled.IconsList>
-        <Styled.Icon>
+        <Styled.Icon href="https://github.com/BlueishCupcake">
           <Github />
         </Styled.Icon>
 
-        <Styled.Icon>
+        <Styled.Icon href="https://www.linkedin.com/in/sophie-quines/">
           <Linkedin />
         </Styled.Icon>
 
-        <Styled.Icon>
+        <Styled.Icon href="mailto:sophiequines@gmail.com">
           <Mail />
         </Styled.Icon>
 
-        <Styled.Icon>
+        <Styled.Icon href="https://wa.me/555198060191">
           <Phone />
         </Styled.Icon>
       </Styled.IconsList>
