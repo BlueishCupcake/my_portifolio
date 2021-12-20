@@ -17,6 +17,14 @@ const Header = () => {
     setButtonLang(lang);
   };
 
+  const clickHandler = (section: string) => {
+    const banana = document.querySelector(`#${section}`);
+    window.scrollTo({
+      top: banana!.getBoundingClientRect().top - 160,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <Styled.HeaderContainer>
       <Container>
@@ -24,7 +32,9 @@ const Header = () => {
           <Styled.HeaderTitle>Portfólio</Styled.HeaderTitle>
 
           <Styled.HeaderNav>
-            <Styled.HeaderLinks href="#">{t("menu-about")}</Styled.HeaderLinks>
+            <Styled.HeaderLinks onClick={() => clickHandler("about")} href="#">
+              {t("menu-about")}
+            </Styled.HeaderLinks>
 
             <Styled.HeaderLinks href="#">
               {t("menu-projects")}

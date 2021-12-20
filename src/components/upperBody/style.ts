@@ -4,6 +4,7 @@ export const UpperBodyContainer = styled.div`
   display: flex;
   flex-flow: wrap;
   justify-content: space-between;
+  padding-top: 1em;
 `;
 
 export const LeftContentDiv = styled.div`

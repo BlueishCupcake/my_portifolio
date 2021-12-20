@@ -30,6 +30,7 @@ export const GlobalStyle = createGlobalStyle`
     -webkit-tap-highlight-color: transparent;
     -moz-osx-font-smoothing: grayscale;
     background-color: var(--black);
+    scroll-behavior: smooth;
 
     width: 100%;
     overflow-x: hidden;

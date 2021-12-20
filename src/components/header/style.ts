@@ -27,6 +27,10 @@ const InacctiveButtonStyle = css`
 export const HeaderContainer = styled.div`
   background-color: var(--gray-2);
   color: var(--white);
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  z-index: 1;
 `;
 
 export const HeaderHrapper = styled.div`

@@ -7,7 +7,7 @@ import * as Styled from "./style";
 
 const About = () => {
   return (
-    <Styled.AboutContainer>
+    <Styled.AboutContainer id="about">
       <Styled.AboutTitle>About myself</Styled.AboutTitle>
 
       <Styled.AboutText>
