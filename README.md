@@ -1,4 +1,4 @@
-Just a simple portifolio project.
+Just a simple reactjs portifolio project.
 
 Here's the libs used in here:
 
