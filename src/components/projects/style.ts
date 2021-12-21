@@ -9,7 +9,7 @@ export const ProjectList = styled.div`
   grid-column-gap: 2em;
 `;
 
-export const ProjectBorder = styled.button`
+export const ProjectBorder = styled.a`
   background-color: var(--gray-2);
   padding-top: 2.5vh;
   display: flex;
@@ -34,6 +34,6 @@ export const ProjectImg = styled.img`
 export const ProjectTitle = styled.h3`
   color: var(--white);
   font-size: 25px;
-  margin-top: 15px;
+  padding: 15px;
   font-family: DM Sans;
 `;

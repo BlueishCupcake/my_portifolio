@@ -7,8 +7,9 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "Work in progress :3",
-      image: "cat-memes.gif",
+      title: "My React Portfólio",
+      image: "my-portifolio.png",
+      link: "https://my-portifolio-thekupcaky.vercel.app",
     },
     {
       title: "Work in progress :3",
@@ -31,7 +32,11 @@ const Projects = () => {
       <Styled.ProjectList>
         {projects.map((project, key) => {
           return (
-            <Styled.ProjectBorder key={`${project} ${key}`}>
+            <Styled.ProjectBorder
+              href={project.link || "#"}
+              target="_blank"
+              key={`${project} ${key}`}
+            >
               <Styled.ProjectImg alt="Project img" src={project.image} />
               <Styled.ProjectTitle>{project.title}</Styled.ProjectTitle>
             </Styled.ProjectBorder>
