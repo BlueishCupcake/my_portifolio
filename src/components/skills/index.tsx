@@ -12,7 +12,7 @@ const Skills = () => {
     },
     {
       img: "css-icon.png",
-      title: "CSS E",
+      title: "CSS 3",
     },
     {
       img: "js-icon.png",

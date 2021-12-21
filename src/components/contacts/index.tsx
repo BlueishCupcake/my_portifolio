@@ -16,19 +16,22 @@ const Contacts = () => {
       <SectionTitle id="contacts"> {t("contacts-title")}</SectionTitle>
 
       <Styled.IconsList>
-        <Styled.Icon href="https://github.com/BlueishCupcake">
+        <Styled.Icon href="https://github.com/BlueishCupcake" target="_blank">
           <Github />
         </Styled.Icon>
 
-        <Styled.Icon href="https://www.linkedin.com/in/sophie-quines/">
+        <Styled.Icon
+          href="https://www.linkedin.com/in/sophie-quines/"
+          target="_blank"
+        >
           <Linkedin />
         </Styled.Icon>
 
-        <Styled.Icon href="mailto:sophiequines@gmail.com">
+        <Styled.Icon href="mailto:sophiequines@gmail.com" target="_blank">
           <Mail />
         </Styled.Icon>
 
-        <Styled.Icon href="https://wa.me/555198060191">
+        <Styled.Icon href="https://wa.me/555198060191" target="_blank">
           <Phone />
         </Styled.Icon>
       </Styled.IconsList>
