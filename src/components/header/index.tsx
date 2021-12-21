@@ -43,14 +43,16 @@ const Header = () => {
               {t("menu-projects")}
             </Styled.HeaderLinks>
 
+            <Styled.HeaderLinks onClick={() => clickHandler("skills")} href="#">
+              {t("menu-skills")}
+            </Styled.HeaderLinks>
+
             <Styled.HeaderLinks
               onClick={() => clickHandler("contacts")}
               href="#"
             >
               {t("menu-contacts")}
             </Styled.HeaderLinks>
-
-            <Styled.HeaderLinks href="#">{t("menu-skills")}</Styled.HeaderLinks>
 
             <Styled.Btndiv>
               <Styled.LangBtn

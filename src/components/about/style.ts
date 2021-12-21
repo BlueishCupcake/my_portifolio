@@ -23,4 +23,5 @@ export const AboutText = styled.p`
   text-align: center;
   width: 45rem;
   margin: 0 auto;
+  white-space: pre-line;
 `;

@@ -1,7 +1,10 @@
+import { useTranslation } from "react-i18next";
 import { SectionTitle } from "GlobalStyles";
 import * as Styled from "./style";
 
 const Projects = () => {
+  const { t } = useTranslation();
+
   const projects = [
     {
       title: "Work in progress :3",
@@ -23,7 +26,7 @@ const Projects = () => {
 
   return (
     <Styled.SectionProjectsContainer>
-      <SectionTitle id="projects">Projects</SectionTitle>
+      <SectionTitle id="projects"> {t("projects-title")}</SectionTitle>
 
       <Styled.ProjectList>
         {projects.map((project) => {

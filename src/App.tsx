@@ -4,6 +4,7 @@ import About from "./components/about";
 import Container from "./components/container";
 import Projects from "./components/projects";
 import Contacts from "./components/contacts";
+import Skills from "components/skills";
 import * as Styled from "./GlobalStyles";
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
           <UpperBody />
           <About />
           <Projects />
+          <Skills />
           <Contacts />
         </>
       </Container>

@@ -1,18 +1,14 @@
+import { useTranslation } from "react-i18next";
 import * as Styled from "./style";
 
 const About = () => {
+  const { t } = useTranslation();
+
   return (
     <Styled.AboutContainer id="about">
-      <Styled.AboutTitle>About myself</Styled.AboutTitle>
+      <Styled.AboutTitle> {t("about-title")}</Styled.AboutTitle>
 
-      <Styled.AboutText>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident
-      </Styled.AboutText>
+      <Styled.AboutText>{t("about-text")}</Styled.AboutText>
     </Styled.AboutContainer>
   );
 };

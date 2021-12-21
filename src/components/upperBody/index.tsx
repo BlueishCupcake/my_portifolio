@@ -1,20 +1,23 @@
+import { useTranslation } from "react-i18next";
 import * as S from "./style";
 
 const UpperBody = () => {
+  const { t } = useTranslation();
+
   return (
     <S.UpperBodyContainer>
       <S.LeftContentDiv>
-        <S.UpperBodyTitle>Hello, I'm Sophie!</S.UpperBodyTitle>
+        <S.UpperBodyTitle>{t("main-name")}</S.UpperBodyTitle>
 
-        <S.UpperBodySub> Front-End Developer</S.UpperBodySub>
+        <S.UpperBodySub>{t("main-job")}</S.UpperBodySub>
 
         <S.ButtonDiv>
           <S.PrimaryButton target="_blank" href="/Resume.pdf">
-            Donwload CV
+            {t("main-cv")}
           </S.PrimaryButton>
 
           <S.SecondaryButton href="https://wa.me/555198060191">
-            Get in touch
+            {t("main-contact")}
           </S.SecondaryButton>
         </S.ButtonDiv>
       </S.LeftContentDiv>
