@@ -36,7 +36,10 @@ const Header = () => {
               {t("menu-about")}
             </Styled.HeaderLinks>
 
-            <Styled.HeaderLinks href="#">
+            <Styled.HeaderLinks
+              onClick={() => clickHandler("projects")}
+              href="#"
+            >
               {t("menu-projects")}
             </Styled.HeaderLinks>
 

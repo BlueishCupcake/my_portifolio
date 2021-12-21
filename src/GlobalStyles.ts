@@ -38,3 +38,14 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'DM Sans', sans-serif;
   }
   `;
+
+export const SectionTitle = styled.h2`
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 2.6rem;
+  text-align: center;
+  color: var(--white);
+  margin: 1.8rem;
+`;

@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const AboutContainer = styled.div`
   margin-top: 4rem;
-  height: 100000vh;
 `;
 
 export const AboutTitle = styled.h2`
