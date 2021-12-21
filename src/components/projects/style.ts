@@ -11,7 +11,6 @@ export const ProjectList = styled.div`
 
 export const ProjectBorder = styled.button`
   background-color: var(--gray-2);
-  height: 40vh;
   padding-top: 2.5vh;
   display: flex;
   flex-flow: wrap;

@@ -1,4 +1,5 @@
-export default {
+const en = {
+  "menu-beggining": "Beggining",
   "menu-about": "About",
   "menu-projects": "Projects",
   "menu-contacts": "Contacts",
@@ -19,3 +20,5 @@ export default {
 
   "contacts-title": "Contacts",
 };
+
+export default en;

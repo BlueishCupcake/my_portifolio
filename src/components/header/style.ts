@@ -64,7 +64,7 @@ export const HeaderNav = styled.nav`
   }
 `;
 
-export const HeaderLinks = styled.a`
+export const HeaderLinks = styled.span`
   text-decoration: none;
   margin: 0 1.4rem;
   color: var(--white);
@@ -74,6 +74,7 @@ export const HeaderLinks = styled.a`
   font-size: 18px;
   line-height: 23px;
   transition: color 0.3s;
+  cursor: pointer;
 
   &:hover {
     color: var(--pink-1);

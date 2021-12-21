@@ -29,9 +29,9 @@ const Projects = () => {
       <SectionTitle id="projects"> {t("projects-title")}</SectionTitle>
 
       <Styled.ProjectList>
-        {projects.map((project) => {
+        {projects.map((project, key) => {
           return (
-            <Styled.ProjectBorder>
+            <Styled.ProjectBorder key={`${project} ${key}`}>
               <Styled.ProjectImg alt="Project img" src={project.image} />
               <Styled.ProjectTitle>{project.title}</Styled.ProjectTitle>
             </Styled.ProjectBorder>

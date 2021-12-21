@@ -36,9 +36,9 @@ const Skills = () => {
     <>
       <SectionTitle id="skills"> {t("skills-title")}</SectionTitle>
       <Styled.SkillsContainer>
-        {skillsInfo.map((skill) => {
+        {skillsInfo.map((skill, key) => {
           return (
-            <Styled.SkillFrame>
+            <Styled.SkillFrame key={`${skill} ${key}`}>
               <Styled.ImgWrapper>
                 <Styled.SkillImg src={skill.img} alt="Skill" />
               </Styled.ImgWrapper>

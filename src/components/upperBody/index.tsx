@@ -4,6 +4,19 @@ import * as S from "./style";
 const UpperBody = () => {
   const { t } = useTranslation();
 
+  const clickHandler = (section: string) => {
+    const sections: HTMLElement | null = document.querySelector(`#${section}`);
+
+    if (!sections) {
+      return;
+    }
+
+    window.scrollTo({
+      top: sections.offsetTop - 160,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <S.UpperBodyContainer>
       <S.LeftContentDiv>
@@ -16,7 +29,7 @@ const UpperBody = () => {
             {t("main-cv")}
           </S.PrimaryButton>
 
-          <S.SecondaryButton href="https://wa.me/555198060191">
+          <S.SecondaryButton onClick={() => clickHandler("contacts")}>
             {t("main-contact")}
           </S.SecondaryButton>
         </S.ButtonDiv>

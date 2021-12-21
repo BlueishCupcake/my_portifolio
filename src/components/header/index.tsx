@@ -18,9 +18,14 @@ const Header = () => {
   };
 
   const clickHandler = (section: string) => {
-    const banana = document.querySelector(`#${section}`);
+    const sections: HTMLElement | null = document.querySelector(`#${section}`);
+
+    if (!sections) {
+      return;
+    }
+
     window.scrollTo({
-      top: banana!.getBoundingClientRect().top - 160,
+      top: sections.offsetTop - 160,
       behavior: "smooth",
     });
   };
@@ -29,28 +34,26 @@ const Header = () => {
     <Styled.HeaderContainer>
       <Container>
         <Styled.HeaderHrapper>
-          <Styled.HeaderTitle>Portfólio</Styled.HeaderTitle>
+          <Styled.HeaderTitle id="beggining">Portfólio</Styled.HeaderTitle>
 
           <Styled.HeaderNav>
-            <Styled.HeaderLinks onClick={() => clickHandler("about")} href="#">
+            <Styled.HeaderLinks onClick={() => clickHandler("beggining")}>
+              {t("menu-beggining")}
+            </Styled.HeaderLinks>
+
+            <Styled.HeaderLinks onClick={() => clickHandler("about")}>
               {t("menu-about")}
             </Styled.HeaderLinks>
 
-            <Styled.HeaderLinks
-              onClick={() => clickHandler("projects")}
-              href="#"
-            >
+            <Styled.HeaderLinks onClick={() => clickHandler("projects")}>
               {t("menu-projects")}
             </Styled.HeaderLinks>
 
-            <Styled.HeaderLinks onClick={() => clickHandler("skills")} href="#">
+            <Styled.HeaderLinks onClick={() => clickHandler("skills")}>
               {t("menu-skills")}
             </Styled.HeaderLinks>
 
-            <Styled.HeaderLinks
-              onClick={() => clickHandler("contacts")}
-              href="#"
-            >
+            <Styled.HeaderLinks onClick={() => clickHandler("contacts")}>
               {t("menu-contacts")}
             </Styled.HeaderLinks>
 
