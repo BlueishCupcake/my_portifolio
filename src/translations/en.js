@@ -1,6 +1,6 @@
 export default {
   "menu-about": "About",
   "menu-projects": "Projects",
-  "menu-services": "Services",
+  "menu-contacts": "Contacts",
   "menu-skills": "Skills",
 };

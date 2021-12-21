@@ -3,6 +3,7 @@ import UpperBody from "./components/upperBody";
 import About from "./components/about";
 import Container from "./components/container";
 import Projects from "./components/projects";
+import Contacts from "./components/contacts";
 import * as Styled from "./GlobalStyles";
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
           <UpperBody />
           <About />
           <Projects />
+          <Contacts />
         </>
       </Container>
     </>
