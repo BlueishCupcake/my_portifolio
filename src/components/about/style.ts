@@ -20,8 +20,11 @@ export const AboutText = styled.p`
   font-size: 1.2rem;
   line-height: 2rem;
   color: var(--gray-3);
-  text-align: center;
   width: 45rem;
   margin: 0 auto;
   white-space: pre-line;
+
+  @media (max-width: 414px) {
+    width: 15em;
+  }
 `;

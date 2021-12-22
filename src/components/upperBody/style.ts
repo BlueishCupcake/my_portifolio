@@ -9,6 +9,10 @@ export const UpperBodyContainer = styled.div`
 
 export const LeftContentDiv = styled.div`
   margin-top: 15rem;
+
+  @media (max-width: 414px) {
+    margin-left: 1em;
+  }
 `;
 
 export const UpperBodyTitle = styled.h2`
@@ -18,6 +22,10 @@ export const UpperBodyTitle = styled.h2`
   font-size: 36px;
   line-height: 2.9rem;
   color: var(--white);
+
+  @media (max-width: 414px) {
+    font-size: 30px;
+  }
 `;
 
 export const UpperBodySub = styled.span`
@@ -82,4 +90,9 @@ export const ButtonDiv = styled.div`
 export const StyledImg = styled.img`
   width: 20rem;
   margin-top: 10rem;
+
+  @media (max-width: 414px) {
+    margin: 0 auto;
+    width: 10rem;
+  }
 `;

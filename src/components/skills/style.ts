@@ -3,6 +3,13 @@ import styled from "styled-components";
 export const SkillsContainer = styled.div`
   display: flex;
   place-content: space-between;
+
+  @media (max-width: 414px) {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    place-content: center;
+    place-items: center;
+  }
 `;
 
 export const SkillFrame = styled.div`

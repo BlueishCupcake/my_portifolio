@@ -7,6 +7,11 @@ export const ProjectList = styled.div`
   grid-template-columns: repeat(2, 50%);
   grid-row-gap: 2em;
   grid-column-gap: 2em;
+
+  @media (max-width: 414px) {
+    display: flex;
+    flex-flow: column wrap;
+  }
 `;
 
 export const ProjectBorder = styled.a`
@@ -22,6 +27,10 @@ export const ProjectBorder = styled.a`
   &:hover {
     box-shadow: 0 0.5em 1em var(--pink-2);
     transform: translateY(-0.5em);
+  }
+
+  @media (max-width: 414px) {
+    margin: 1em;
   }
 `;
 

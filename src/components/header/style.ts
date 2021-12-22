@@ -66,6 +66,7 @@ export const HeaderNav = styled.nav`
 
 export const HeaderLinks = styled.span`
   text-decoration: none;
+  width: 75px;
   margin: 0 1.4rem;
   color: var(--white);
   font-family: DM Sans;
@@ -84,6 +85,10 @@ export const HeaderLinks = styled.span`
 export const Btndiv = styled.div`
   display: flex;
   margin-left: 1rem;
+
+  @media (max-width: 414px) {
+    padding: 1em;
+  }
 `;
 
 export const LangBtn = styled.button<ButtonProps>`
