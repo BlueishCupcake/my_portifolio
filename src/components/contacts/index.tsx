@@ -26,14 +26,6 @@ const Contacts = () => {
         >
           <Linkedin />
         </Styled.Icon>
-
-        <Styled.Icon href="mailto:sophiequines@gmail.com" target="_blank">
-          <Mail />
-        </Styled.Icon>
-
-        <Styled.Icon href="https://wa.me/555198060191" target="_blank">
-          <Phone />
-        </Styled.Icon>
       </Styled.IconsList>
     </>
   );
