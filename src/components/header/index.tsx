@@ -25,7 +25,7 @@ const Header = () => {
     }
 
     window.scrollTo({
-      top: sections.offsetTop - 160,
+      top: sections.offsetTop - 220,
       behavior: "smooth",
     });
   };
