@@ -33,11 +33,20 @@ export const HeaderContainer = styled.div`
   z-index: 1;
 `;
 
-export const HeaderHrapper = styled.div`
+export const HeaderWrapper = styled.div`
   display: flex;
   place-items: center;
   place-content: space-between;
   flex-wrap: wrap;
+
+  @media (max-width: 428px) {
+    width: 100%;
+    place-items: space-between;
+  }
+
+  @media (max-width: 810px) {
+    place-items: center;
+  }
 `;
 
 export const HeaderTitle = styled.h1`
@@ -48,7 +57,7 @@ export const HeaderTitle = styled.h1`
   padding: 35px 0;
   line-height: 34px;
 
-  @media (max-width: 414px) {
+  @media (max-width: 428px) {
     width: 100vw;
     text-align: center;
   }
@@ -59,8 +68,13 @@ export const HeaderNav = styled.nav`
   place-content: flex-end;
   flex-wrap: wrap;
 
-  @media (max-width: 414px) {
+  @media (max-width: 428px) {
     place-content: center;
+  }
+
+  @media (max-width: 375px) {
+    place-content: space-between;
+    height: 150px;
   }
 `;
 
@@ -80,14 +94,22 @@ export const HeaderLinks = styled.span`
   &:hover {
     color: var(--pink-1);
   }
+
+  @media (max-width: 428px) {
+    padding: 4px;
+  }
 `;
 
 export const Btndiv = styled.div`
   display: flex;
   margin-left: 1rem;
 
-  @media (max-width: 414px) {
+  @media (max-width: 428px) {
     padding: 1em;
+  }
+
+  @media (max-width: 810px) {
+    padding: 16px;
   }
 `;
 

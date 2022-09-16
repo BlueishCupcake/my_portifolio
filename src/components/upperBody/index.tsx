@@ -34,7 +34,7 @@ const UpperBody = () => {
           </S.SecondaryButton>
         </S.ButtonDiv>
       </S.LeftContentDiv>
-      <S.StyledImg src="rem-rezero.gif" alt="Dancing Rem Gif" />
+      <S.StyledImg src="castellian_1.png" alt="Me drinking coffe" />
     </S.UpperBodyContainer>
   );
 };

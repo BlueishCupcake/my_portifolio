@@ -1,5 +1,17 @@
-import styled, { createGlobalStyle } from "styled-components";
+import styled, { createGlobalStyle, keyframes } from "styled-components";
 import reset from "styled-reset";
+
+const gradientAnimation = keyframes`
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+`;
 
 export const GlobalStyle = createGlobalStyle`
   ${reset}
@@ -29,7 +41,9 @@ export const GlobalStyle = createGlobalStyle`
     -webkit-font-smoothing: antialiased;
     -webkit-tap-highlight-color: transparent;
     -moz-osx-font-smoothing: grayscale;
-    background-color: var(--black);
+    background: linear-gradient(-45deg, #C90266, #e73c7e, #8f0047, #212121);
+    background-size: 400% 400%;
+    animation: ${gradientAnimation} 15s ease infinite;
     scroll-behavior: smooth;
 
     width: 100%;
@@ -46,6 +60,6 @@ export const SectionTitle = styled.h2`
   font-size: 2rem;
   line-height: 2.6rem;
   text-align: center;
-  color: var(--white);
+  color: var(--black);
   margin: 1.8rem;
 `;

@@ -5,14 +5,18 @@ export const UpperBodyContainer = styled.div`
   flex-flow: wrap;
   justify-content: space-between;
   padding-top: 1em;
+
+  @media (max-width: 428px) {
+    margin-top: 10rem;
+  }
+
+  @media (max-width: 810px) {
+    width: 100%;
+  }
 `;
 
 export const LeftContentDiv = styled.div`
   margin-top: 15rem;
-
-  @media (max-width: 414px) {
-    margin-left: 1em;
-  }
 `;
 
 export const UpperBodyTitle = styled.h2`
@@ -21,9 +25,9 @@ export const UpperBodyTitle = styled.h2`
   font-weight: bold;
   font-size: 36px;
   line-height: 2.9rem;
-  color: var(--white);
+  color: var(--black);
 
-  @media (max-width: 414px) {
+  @media (max-width: 428px) {
     font-size: 30px;
   }
 `;
@@ -34,7 +38,7 @@ export const UpperBodySub = styled.span`
   font-weight: 500;
   font-size: 18px;
   line-height: 23px;
-  color: var(--gray-3);
+  color: var(--black);
 `;
 
 export const PrimaryButton = styled.a`
@@ -57,6 +61,10 @@ export const PrimaryButton = styled.a`
 
   &:hover {
     background-color: var(--pink-2);
+  }
+
+  @media (max-width: 428px) {
+    margin: 8px 0;
   }
 `;
 
@@ -88,11 +96,16 @@ export const ButtonDiv = styled.div`
 `;
 
 export const StyledImg = styled.img`
-  width: 20rem;
+  width: 15rem;
   margin-top: 10rem;
 
-  @media (max-width: 414px) {
+  @media (max-width: 428px) {
     margin: 0 auto;
+    width: 10rem;
+  }
+
+  @media (max-width: 810px) {
+    margin-top: 10rem;
     width: 10rem;
   }
 `;

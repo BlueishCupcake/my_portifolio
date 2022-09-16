@@ -33,7 +33,7 @@ export const SkillImg = styled.img`
 `;
 
 export const SkillName = styled.span`
-  color: var(--white);
+  color: var(--black);
   font-family: DM Sans;
   padding: 10px;
 `;

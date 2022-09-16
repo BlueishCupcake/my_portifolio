@@ -12,7 +12,7 @@ const en = {
 
   "about-title": "About myself",
   "about-text":
-    "Hello, my name is Sophie and I'm a trans girl and your friendly (not-so local) maid. \n\n I have been in touch with tecnology since I was little, mostly by gaming. Around 2020 I finally decided to start working on this habit that I already had and since the beggining I felt a very deep attachment to front-end as it made me possible to create beautiful experiences for users. \n\n My main interests are: Gaming, Anime, Cosplay and Halloween.",
+    "Brazilian trans woman who loves halloween! \n\n I've always had an easy time with technologies in general, and despite having little experience in speaking English I believe already having an acceptable and pleasant fluency for the labor market. \n\n My dream since I was a teenager was always to be able to work with technology and with people from all over the world. Being able to get to know different cultures is something wonderful, and now I feel that I am getting closer and closer to achieving this. \n\n My professional focus is to provide a nice product for users and a clean and easy to maintain code for future devs. And what I expect from a work environment is a comfortable one, without unnecessary competition and that respect is something that prevails between coworkers. And of course I wouldn't mind a happy hour here and there :) \n\n My main interests are: Gaming, Anime, Cosplay and Halloween. \n\n So if you think I would be a good addition to your team, be sure to message me, I always reply as soon as possible and am always willing to meet new people!",
 
   "projects-title": "Projects",
 

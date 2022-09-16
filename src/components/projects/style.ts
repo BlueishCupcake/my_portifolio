@@ -8,7 +8,7 @@ export const ProjectList = styled.div`
   grid-row-gap: 2em;
   grid-column-gap: 2em;
 
-  @media (max-width: 414px) {
+  @media (max-width: 428px) {
     display: flex;
     flex-flow: column wrap;
   }
@@ -29,7 +29,7 @@ export const ProjectBorder = styled.a`
     transform: translateY(-0.5em);
   }
 
-  @media (max-width: 414px) {
+  @media (max-width: 428px) {
     margin: 1em;
   }
 `;

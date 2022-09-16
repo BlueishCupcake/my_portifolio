@@ -33,7 +33,7 @@ const Header = () => {
   return (
     <Styled.HeaderContainer>
       <Container>
-        <Styled.HeaderHrapper>
+        <Styled.HeaderWrapper>
           <Styled.HeaderTitle id="beggining">Portfólio</Styled.HeaderTitle>
 
           <Styled.HeaderNav>
@@ -72,7 +72,7 @@ const Header = () => {
               </Styled.LangBtn>
             </Styled.Btndiv>
           </Styled.HeaderNav>
-        </Styled.HeaderHrapper>
+        </Styled.HeaderWrapper>
       </Container>
     </Styled.HeaderContainer>
   );

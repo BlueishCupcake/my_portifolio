@@ -26,10 +26,6 @@ const Skills = () => {
       img: "react-icon.png",
       title: "React & React Native",
     },
-    {
-      img: "flutter-icon.png",
-      title: "Flutter",
-    },
   ];
 
   return (

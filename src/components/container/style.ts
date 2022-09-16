@@ -6,7 +6,11 @@ export const Container = styled.div`
   width: 90rem;
   max-width: 100%;
 
-  @media (max-width: 414px) {
-    padding: 0;
+  @media (max-width: 428px) {
+    padding: 0 1.3rem;
+  }
+
+  @media (max-width: 810px) {
+    padding: 0 1.3rem;
   }
 `;

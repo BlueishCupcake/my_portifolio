@@ -7,9 +7,9 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "My React Portfólio",
-      image: "my-portifolio.png",
-      link: "https://my-portifolio-thekupcaky.vercel.app",
+      title: "Minimalist Libary",
+      image: "minimalist_libary.png",
+      link: "https://minimalist-libary.vercel.app/",
     },
     {
       title: "Work in progress :3",

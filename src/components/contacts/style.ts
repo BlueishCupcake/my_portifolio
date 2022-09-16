@@ -6,7 +6,7 @@ export const IconsList = styled.div`
   margin: 1.8rem auto;
   width: 30rem;
 
-  @media (max-width: 414px) {
+  @media (max-width: 428px) {
     width: 100%;
   }
 `;
