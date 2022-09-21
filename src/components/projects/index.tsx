@@ -9,7 +9,7 @@ const Projects = () => {
     {
       title: "Minimalist Libary",
       image: "minimalist_libary.png",
-      link: "https://minimalist-libary.vercel.app/",
+      link: "https://github.com/BlueishCupcake/MinimalistLibary",
     },
     {
       title: "Work in progress :3",
