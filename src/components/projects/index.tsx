@@ -12,12 +12,14 @@ const Projects = () => {
       link: "https://github.com/BlueishCupcake/MinimalistLibary",
     },
     {
-      title: "Work in progress :3",
-      image: "cat-memes.gif",
+      title: "Lusty Pole",
+      image: "pole_thumb.png",
+      link: "https://github.com/BlueishCupcake/LustyPole",
     },
     {
-      title: "Work in progress :3",
-      image: "cat-memes.gif",
+      title: "Filipe Machado Tatto",
+      image: "filipe_tattoo.png",
+      link: "https://github.com/BlueishCupcake/FilipeTattoo",
     },
     {
       title: "Work in progress :3",
@@ -37,7 +39,7 @@ const Projects = () => {
               target="_blank"
               key={`${project} ${key}`}
             >
-              <Styled.ProjectImg alt="Project img" src={project.image} />
+              <Styled.ProjectImg alt={project.title} src={project.image} />
               <Styled.ProjectTitle>{project.title}</Styled.ProjectTitle>
             </Styled.ProjectBorder>
           );
